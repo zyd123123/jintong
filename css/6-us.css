@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.topbar{
+    width: 7.5rem;
+    height: 1rem;
+    position: fixed;
+    box-shadow: 0 0 0.1rem 0 
+        rgba(103, 172, 228, 0.767);
+    background-color: white;
+    line-height: 1rem;
+}
+.topbox{
+    width: 7rem;
+    height: 0.4rem;
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
+    text-align: center;
+    line-height: 0.4rem;
+    position: relative;
+    
+}
+.topbar i{
+    color: #54bcfb;
+    position: absolute;
+    left: 0.2rem;
+}
+.topbar span{
+    top: 0.2rem;
+    color: #54bcfb;
+}
+
+.logo{
+    width: 7.5rem;
+    height: 3.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.02rem solid #f1f4f5;
+}
+.word{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.4rem;
+}
+.h{
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #54bcfb;
+}
+.tu{
+    width: 1,1rem;
+    height: 1.4rem;
+    background-color: lightcoral;
+    margin-top: 1.2rem;
+}
+.info{
+    width: 6.6rem;
+    height: 5.5rem;
+    margin-left: 0.5rem;
+    border-bottom: 0.02rem solid #f1f4f5;
+}
+.info p{
+    margin-top: 0.7rem;
+    font-size: 0.26rem;
+    color: #7d7f7f;
+}
+.econ{
+    width: 6.6rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+    border-bottom: 0.02rem solid #f1f4f5;
+}
+.wechat{
+    width: 6.6rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+}
+.wechat p{
+    font-size: 0.28rem;
+    color: #7d7f7f;
+}
+.wechat span{
+    margin-left: 3.5rem;
+    font-size: 0.28rem;
+    color: #54bcfb;
+}
+.cell span{
+    color:#6acc8b;
+}

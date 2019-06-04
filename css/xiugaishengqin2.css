@@ -1,0 +1,329 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+
+/* 分割 */
+
+.top{
+    width: 7.5rem;
+    height: 0.88rem;
+    position:fixed;
+    top:0;
+    margin: 0 auto;
+    box-shadow:0 0.002rem 0.1rem 0.01rem #ECF8FF;
+}
+.top i{
+    color:#4FBBFE;
+    margin-left: 0.24rem;
+}
+.top strong{
+    color:#4FBBFE;
+    text-align: center;
+    line-height: 0.88rem;
+    margin-left: 2.53rem;
+}
+
+/* 分割 */
+
+.heada{
+    width: 7.5rem;
+    height: 3.6rem;
+    margin-top: 1.1rem;
+    overflow:hidden;
+}
+.heada .tu img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.24rem;
+    margin-top: 0.4rem;
+    display: block;
+    float: left;
+    box-shadow:0 0.002rem 0.1rem 0.01rem rgb(230, 230, 230);
+}
+.heada .zi{
+    width: 5rem;
+    height: 2.5rem;
+    float: right;
+    margin-top: 0.3rem;
+    overflow:hidden;
+    position:relative;
+}
+.heada span{
+    color:black;
+    font-size: 0.3rem;
+}
+.heada p{
+    color:rgb(92, 92, 92);
+    font-size: 0.25rem
+}
+.heada .zi1{
+    color:#6BD3FB;
+    margin-top: 0.05rem;
+}
+.heada .zi2{
+    margin-top: 0.05rem;
+}
+.heada .zi3{
+    margin-top: 0.4rem;
+}
+.heada .zi4{
+    top: 1.7rem;
+    position:absolute;
+    right:0.24rem;
+}
+.heada .zi5{
+    top: 4rem;
+    position:absolute;
+    right:0.24rem;
+    color:#F0B85A;
+}
+
+/* 分割 */
+
+.headb{
+    width: 7.5rem;
+    height: 3.3rem;
+    overflow:hidden; 
+    margin-top: 0.1rem;
+}
+.headb .san{
+    width: 7.5rem;
+    height: 1rem;
+    border-top:0.01rem solid rgb(226, 226, 226);
+    line-height: 1rem;
+    position:relative;
+}
+.headb .san1{
+    width: 7.5rem;
+    height: 1.5rem;
+    border-top:0.01rem solid rgb(226, 226, 226);
+    position:relative;
+}
+.headb .san .zi1{
+    display: block;
+    float: left;
+    margin-left: 0.24rem;
+    font-size:0.3rem;
+    color:black;
+}
+.headb .san .zi2{
+    display: block;
+    float: left;
+    color:#4FBBFE;
+    font-size:0.3rem;
+}
+.headb .san .zi3{
+    display: block;
+    float: right;
+    font-size:0.3rem;
+    margin-right: 0.54rem;
+    color:rgb(90, 90, 90);
+}
+.headb .san i{
+    position:absolute;
+    right:0;
+    color:#4FBBFE;
+    font-size: 0.24rem;
+    margin-right: 0.24rem;
+}
+
+.headb .san1 .zi1{
+    display: block;
+    float: left;
+    margin-left: 0.24rem;
+    font-size:0.3rem;
+    color:black;
+    margin-top: 0.3rem;
+}
+.headb .san1 .zi2{
+    display: block;
+    float: left;
+    color:#FCBE47;
+    font-size:0.3rem;
+    margin-top: 0.3rem;
+}
+.headb .san1 .zi3{
+    display: block;
+    float: left;
+    font-size:0.25rem;
+    margin-top: 0.35rem;
+    color:rgb(90, 90, 90);
+}
+.headb .san1 span{
+    display: block;
+    float: left;
+    font-size:0.25rem;
+    position:absolute;
+    left:0;
+    top:0.8rem;
+    left:0.24rem;
+    font-weight:bold;
+    color:#FCBE47;
+}
+
+/* 分割 */
+
+.headc{
+    width: 7.02rem;
+    height: 1.5rem;
+    background-color: #F1FAFF;
+    margin: 0 auto;
+    border-radius:0.2rem;
+    overflow:hidden;
+}
+.headc p{
+    color:rgb(163, 163, 163);
+    font-size: 0.27rem; 
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+/* 分割 */
+
+.headd{
+    width: 7.5rem;
+    height: 2rem;
+    margin: 0 auto;
+    overflow:hidden;
+    position:relative;
+    margin-top: 0.2rem;
+}
+.headd .zi1{
+    display: block;
+    float: left;
+    margin-left: 0.24rem;
+    font-size:0.3rem;
+    color:black;
+}
+.headd .zi2{
+    display: block;
+    float: left;
+    color:#33D892;
+    font-size:0.3rem;
+}
+.headd .zi3{
+    display: block;
+    float: left;
+    font-size:0.25rem;
+    margin-top: 0.05rem;
+    color:rgb(90, 90, 90);
+}
+.headd img{
+    width: 1rem;
+    height: 1rem;
+    position:absolute;
+    left:0.2rem;
+    top:0.45rem;
+}
+
+/* 分割 */
+
+.bottom{
+    width: 4rem;
+    height: 0.7rem;  
+    background-color: #33D894;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+    border-radius:0.5rem;
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 0.25rem;
+    color:white;
+    box-shadow:0 0.002rem 0.1rem 0.01rem #33D894;
+}
+
+
+/* 分割 */
+
+.big{
+    width: 7.5rem;
+    height: 13.34rem;  
+    background-color:rgba(0,0,0,0.5) ;
+    position:absolute;
+    top:0;
+}
+.bigx{
+    width: 7.5rem;
+    height: 4.5rem;  
+    background-color:white;
+    position:absolute;
+    bottom:0;
+}
+.bigx .toop{
+    width: 7.5rem;
+    height: 1rem;  
+    line-height: 1rem;
+}
+.bigx .toop .zi{
+    font-size: 0.25rem;
+    color:#33D892;
+    display: block;
+    float: left;
+    margin-left: 3.3rem; */
+}
+.bigx .toop .zii{
+    font-size: 0.25rem;
+    color:rgb(189, 187, 187);
+    display: block;
+    float: left;
+}
+.bigx .toop i{
+    color:rgb(131, 131, 131);
+    display: block;
+    float: right;
+    margin-right: 0.24rem;
+}
+.bigx .too{
+    width: 7.02rem;
+    height: 0.7rem;
+    border-bottom: 0.005rem solid rgb(219, 219, 219);
+    margin: 0 auto;
+    line-height: 0.7rem;
+    position:relative；
+}
+.bigx .dib{
+    width:4rem;
+    height:0.7rem;
+    background-color: #33D894;
+    margin: 0 auto;
+    border-radius:0.5rem;
+    margin-top: 1rem;
+    line-height: 0.7rem;
+    text-align: center;
+    color:white;
+    font-size: 0.25rem;
+}
+.bigx .too .dian{
+    color:#44b5ff;
+    position:absolute;
+    left:0.24rem;
+}
+.bigx .too p{
+    font-size: 0.2rem;
+    color:black;
+    position:absolute;
+    left:0.4rem;
+}
+.bigx .too i{
+    display: block;
+    float: right;
+    color:#44b5ff;
+    margin-right: 0.3rem;
+    font-size: 0.25rem;
+}
+
+
+
+
+
+
+
+
+
+/* 分割 */
+

@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+
+/* 分割 */
+
+.top{
+    width: 7.5rem;
+    height: 0.88rem;
+    position:fixed;
+    top:0;
+    margin: 0 auto;
+    box-shadow:0 0.002rem 0.1rem 0.01rem #ECF8FF;
+}
+.top i{
+    color:#4FBBFE;
+    margin-left: 0.24rem;
+}
+.top strong{
+    color:#4FBBFE;
+    text-align: center;
+    line-height: 0.88rem;
+    margin-left: 2.78rem;
+}
+
+/* 分割 */
+
+.tu{
+    width:7.5rem;
+    height:3.3rem;
+    margin: 0 auto;
+    margin-top: 1.4rem;
+}
+.tu img{
+    width:7.5rem;
+    height:3.3rem;
+    margin: 0 auto;
+}
+
+/* 分割 */
+
+.zi{
+    height: 0.5rem;
+    width: 7.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.zi p{
+    font-size:0.23rem ;
+    color:#000000;
+}

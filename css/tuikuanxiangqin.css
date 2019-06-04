@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+
+/* 分割 */
+
+.top{
+    width: 7.5rem;
+    height: 0.88rem;
+    position:fixed;
+    top:0;
+    margin: 0 auto;
+    box-shadow:0 0.002rem 0.08rem 0.01rem #ECF8FF;
+}
+.top i{
+    color:#4FBBFE;
+    margin-left: 0.24rem;
+}
+.top strong{
+    color:#4FBBFE;
+    text-align: center;
+    line-height: 0.88rem;
+    margin-left: 2.53rem;
+}
+
+/* 分割 */
+
+.heada{
+    width: 7.5rem;
+    height: 3.6rem;
+    margin-top: 0.2rem;
+    overflow:hidden;
+}
+.heada .tu img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.24rem;
+    margin-top: 0.4rem;
+    display: block;
+    float: left;
+    box-shadow:0 0.002rem 0.1rem 0.01rem rgb(230, 230, 230);
+}
+.heada .zi{
+    width: 5rem;
+    height: 2.5rem;
+    float: right;
+    margin-top: 0.3rem;
+    overflow:hidden;
+    position:relative;
+}
+.heada span{
+    color:black;
+    font-size: 0.3rem;
+}
+.heada p{
+    color:rgb(92, 92, 92);
+    font-size: 0.25rem
+}
+.heada .zi1{
+    color:#6BD3FB;
+    margin-top: 0.05rem;
+}
+.heada .zi2{
+    margin-top: 0.05rem;
+}
+.heada .zi3{
+    margin-top: 0.4rem;
+}
+.heada .zi4{
+    top: 1.7rem;
+    position:absolute;
+    right:0.24rem;
+}
+.heada .zi5{
+    top: 10.3rem;
+    position:absolute;
+    right:0.24rem;
+    color:#F0B85A;
+}
+
+/* 分割 */
+
+.headb{
+    width: 7.02rem;
+    height: 1rem;
+    margin-top: 1.1rem;
+    overflow:hidden;
+    margin: 0 auto;
+    margin-top: 0.88rem;
+    line-height: 1.5rem;
+    text-align: center;
+    border-bottom: 0.01rem solid rgb(228, 228, 228);
+}
+.headb p{
+    font-size: 0.28rem;
+    color: black;
+}
+
+/* 分割 */
+
+.headc{
+    width: 7.5rem;
+    height: 1rem;
+    overflow:hidden;
+    position:relative；
+}
+.headc .zi p{
+    display: block;
+    font-size: 0.27rem;
+    color:#FF6666;
+    float:left;
+    margin-left: 0.6rem;
+    font-weight:bold;
+}
+.headc .zz p{
+    display: block;
+    font-size: 0.26rem; 
+    color:black;
+    float:left;
+    margin-left: 0.5rem;   
+}
+.headc .zi{
+    position:absolute;
+    top:2.2rem;
+    left:1.3rem;
+}
+.headc .zz{
+    position:absolute;
+    top:2.2rem;
+    left:1.8rem;
+}
+.headc .zii{
+    position:absolute;
+    top:0.01rem;
+    left:2.6rem;
+}
+
+/* 分割 */
+
+.headd{
+    width: 7.02rem;
+    height: 3.45rem;
+    margin: 0 auto;
+    overflow:hidden;
+    position:relative；
+}
+.headd p{
+    font-size: 0.26rem;
+    margin-top: 0.35rem;
+}
+.headd .zi{
+    margin-top:0;
+}
+
+/* 分割 */
+.ziz{
+    margin-top: 0.2rem;
+    width: 7.5rem;
+    height: 0.3rem;
+}
+.zi11{
+    display: block;
+    float: left;
+    margin-left: 0.24rem;
+    font-size:0.3rem;
+    color:black;
+}
+.zi22{
+    display: block;
+    float: left;
+    color:#33D892;
+    font-size:0.3rem;
+}
+
+
+
+
+.heade{
+    width: 7.02rem;
+    height: 0.62rem;
+    margin: 0 auto;
+}
+.heade .san{
+    width: 1.66rem;
+    height: 0.6rem;
+    float:right;
+    background-color: #3bacfe;
+    border-radius:0.5rem;
+    margin-right: 0.2rem;
+    font-size: 0.19rem;
+    color:white;
+    line-height: 0.6rem;
+    text-align: center;
+    box-shadow:0 0 0.05rem 0.01rem #3bacfe;
+}
+.heade .box{
+    background-color: #E7F6FF;
+    box-shadow:0 0 0.05rem 0.01rem white;
+    color:#3bacfe;
+}
+
+
+/* 分割 */
+
+.bottom{
+    width: 5rem;
+    height: 0.7rem;  
+    background-color: #33D894;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius:0.5rem;
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 0.25rem;
+    color:white;
+    box-shadow:0 0.002rem 0.1rem 0.01rem #33D894;
+}
+
+/* 分割 */

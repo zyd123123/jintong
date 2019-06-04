@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.topbar{
+    width: 7.5rem;
+    height: 1rem;
+    position: fixed;
+    box-shadow: 0 0 0.2rem 0 
+        rgba(103, 172, 228, 0.767);
+    background-color: white;
+    line-height: 1rem;
+}
+.topbox{
+    width: 7rem;
+    height: 0.4rem;
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
+    text-align: center;
+    line-height: 0.4rem;
+    position: relative;
+    
+}
+.topbar i{
+    color: #54bcfb;
+    position: absolute;
+    left: 0.2rem;
+}
+.topbar span{
+    top: 0.2rem;
+    color: #54bcfb;
+}
+.title {
+    width: 6.4rem;
+    height: 1.54rem;
+    padding-top: 1rem;
+    line-height: 0.5rem;
+    margin-left: 0.56rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.02rem soilid #979899;
+}
+.title p{
+    color: #42b2fc;
+}
+.info{
+    width: 6.4rem;
+    height: 1.54rem;
+    line-height: 0.4rem;
+    margin-left: 0.56rem;
+    margin-top: 0.2rem;
+}
+.info p{
+    margin-top: 0.5rem;
+    font-size: 0.26rem;
+    color: #707272;
+}

@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+
+/* 分割 */
+
+.top{
+    width: 7.5rem;
+    height: 0.88rem;
+    position:fixed;
+    top:0;
+    margin: 0 auto;
+    box-shadow:0 0.002rem 0.1rem 0.01rem #ECF8FF;
+}
+.top i{
+    color:#4FBBFE;
+    margin-left: 0.24rem;
+}
+.top strong{
+    color:#4FBBFE;
+    text-align: center;
+    line-height: 0.88rem;
+    margin-left: 2.48rem;
+}
+
+/* 分割 */
+
+.heada{
+    width:6.41rem;
+    height:1.85rem;
+    background-color:white;
+    margin: 0 auto;
+    margin-top: 1.3rem;
+    box-shadow:0 0.002rem 0.1rem 0.01rem rgba(227,227,227,0.75);
+}
+.heada .zz{
+    width:1.5rem;
+    height:1.85rem;
+    float: left;
+}
+.heada .zz .yy{
+    width:1.15rem;
+    height:1.15rem;
+    float: right;
+    border-radius:50%;
+    margin-top: 0.35rem;
+    margin-right: 0.1rem;
+}
+.heada .zz .yy img{
+    border-radius:50%;
+}
+.heada .z{
+    width:1.6rem;
+    height:1.85rem;
+    float: left;
+}
+.heada .z p{
+    font-size: 0.29rem;
+    color:black;
+    margin-top: 0.55rem;
+}
+.heada .z span{
+    font-size: 0.22rem;
+    color:#8a8a8a;
+}
+.heada .z i{
+    font-size: 0.22rem;
+    color:#ffe535;
+}
+.heada .y{
+    width:1.3rem;
+    height:1.85rem;
+    float: right;
+}
+.heada .y p{
+    color:#3bacfe;
+    font-size: 0.2rem;
+    margin-top: 0.58rem;
+}
+
+/* 分割 */
+
+.headb{
+    width:5.2rem;
+    height:0.8rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    position: relative;
+}
+.headb .s p{
+    font-size:0.33rem;
+    font-weight:bold; 
+    /* background:-webkit-linear-gradient(to right,#FFE5D1,#FFFDFD);
+    background:linear-gradient(to right,#FFE5D1,#FFFDFD); */
+    display: block;
+    float: left;
+    margin-left: 0.9rem;
+}
+.headb .x p{
+    font-size:0.24rem;
+    display: block;
+    float: left;
+    margin-left: 0.85rem;
+}
+.headb .x .l{
+    font-size:0.24rem;
+    position:absolute;
+    left:2.8rem;
+    top:0.48rem;
+}
+.headb .s .ll{
+    color:#2dde59;
+}
+.headb .s .lll{
+    color:#ffb83a;
+}
+.headb .s .llll{
+    color:#30a3fe;
+}
+
+/* 分割 */
+
+.headc{
+    width:7.02rem;
+    height:5.92rem;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+}
+.headc .qi{
+    width:7.02rem;
+    height:0.84rem;
+    border-bottom: 0.005rem solid rgb(230, 230, 230);
+    line-height: 0.84rem;
+    position:relative;
+}
+.headc .qi i{
+    color:#44b5ff;
+    display: block;
+    float: left;
+}
+.headc .qi p{
+    color:#000000;
+    font-size:0.27rem;
+    display: block;
+    float: left;
+}
+.headc .qi span{
+    color:#fe624e;
+    font-weight:bold;
+    float: right;
+}
+
+/* 分割 */
+
+.tab{
+    width:7.5rem;
+    border-top:0.01rem solid #b7b7b7;
+    height:0.96rem;
+    position:fixed;
+    bottom:0;
+    display:flex;
+    justify-content:space-around;
+    padding:0 24px;
+    box-sizing: border-box;
+    background:#fefefe;
+}
+.tab .small{
+    width:1rem;
+    height:0.98rem;
+    
+}
+.tab .small a{
+    display: block;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+.tab .small a img{
+    width:0.51rem;
+    height:0.52rem;
+    margin-top: 0.05rem;
+}
+.tab .small a .shouye{
+    font-size:0.18rem;
+    color:#9ddcff;
+    margin-top: 0.02rem;
+}
+.tab .small .a2 .shouye{
+    color:#62c6fe;
+}
+
+/* 分割 */
+

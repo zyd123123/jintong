@@ -1,0 +1,161 @@
+.top-box{
+    width: 100%;
+    height: 0.88rem;
+    /* background: #000000; */
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 0.05rem 1rem 0.1rem #ECF8FF;
+}
+a{
+    color: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.top{
+    width: 7.02rem;
+    height: 0.88rem;
+    background:#fff;
+    text-align: center;
+    line-height: 0.88rem;
+    margin: 0 auto;
+    color: #4EBBFE;
+}
+.top>a{
+    float: left;
+    color: #4EBBFE;
+    font-weight: bolder;
+}
+.dengLu-box{
+    width: 100%;
+    height: 2.92rem;
+    /* background: #4EBBFE; */
+    margin-top: 0.88rem;
+}
+.dengLu{
+    width: 5.31rem;
+    height: 2.92rem;
+    /* background: #000; */
+    display:flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    border-bottom: 0.01rem solid #ECF8FF;
+    box-sizing: border-box;
+}
+.dengLu-item{
+    width: 1rem;
+    height: 0.87rem;
+    /* background: #4EBBFE; */
+    margin-top: 2.05rem;
+    /* border-bottom: 0.01rem solid #ECF8FF; */
+    font-size: 0.24rem;
+    line-height: 0.87rem;
+    text-align: center;
+    color: #000;
+    opacity: 0.5;
+    /* box-sizing: border-box; */
+    font-weight: bold;
+}
+.item1{
+    border-bottom: 0.02rem solid #4EBBFE;
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+.zhuYi-box{
+    width: 100%;
+    height: 0.7rem;
+}
+.zhuYi{
+    width: 5.31rem;
+    height: 0.7rem;
+    border-bottom: 0.01rem solid #ECF8FF;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: 0.26rem;
+    line-height: 0.7rem;
+    color: #666;
+    display: flex;
+    justify-content: flex-start;
+}
+.zhuYi .icon-shouji{
+    font-size: 0.3rem;
+    color: #5DB5FF;
+    font-weight: bold;
+}
+.zhuYi span{
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #5DB5FF;
+    margin-left: 0.28rem;
+}
+.zhuYi input{
+    height: 0.69rem;
+    margin-left: 0.28rem;
+    box-sizing: border-box;
+    border: 0;
+}
+.zhuYi-item1>span{
+    display: inline-block;
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #5DB5FF;
+    border-radius: 50%;
+    margin-top: 0.3rem;
+    margin-left: 0.1rem;
+}
+.zhuYi-item1>a .btn{
+    width: 1.3rem;
+    height: 0.5rem;
+    background: linear-gradient(to right,#37E06F,#32D69A);
+    background: -moz-linear-gradient(to right,#37E06F,#32D69A);
+    background: -webkit-linear-gradient(to right,#37E06F,#32D69A);
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.5rem;
+    margin-top: 0.1rem;
+}
+.dengLubtn-box{
+    width: 100%;
+    height: 1.1rem;
+}
+.dengLubtn{
+    width: 3.86rem;
+    height: 0.52rem;
+    background: #E7F6FF;
+    font-size: 0.26rem;
+    color: #4EBBFE;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    text-align: center;
+    line-height: 0.52rem;
+    border-radius: 0.5rem;
+}
+.think-box{
+    width: 100%;
+    height: 0.4rem;
+}
+.think{
+    width: auto;
+    height: 0.4rem;
+    margin: 0 1rem;
+    padding-top: 0.1rem;
+    box-sizing: border-box; 
+}
+.think>div{
+    width: 0.25rem;
+    height: 0.25rem;
+    display: inline-block;
+    border-radius: 50%;
+    background: #E7F6FF;  
+}
+.think>span{
+    display: inline-block;
+    font-size: 0.22rem;
+    color: #999;
+}
+

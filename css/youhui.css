@@ -1,0 +1,355 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+
+/* 分割 */
+
+.top{
+    width: 7.5rem;
+    height: 0.88rem;
+    position:fixed;
+    top:0;
+    margin: 0 auto;
+    box-shadow:0 0.002rem 0.1rem 0.01rem #ECF8FF;
+}
+.top i{
+    color:#4FBBFE;
+    margin-left: 0.24rem;
+}
+.top strong{
+    color:#4FBBFE;
+    text-align: center;
+    line-height: 0.88rem;
+    margin-left: 2.78rem;
+}
+
+/* 分割 */
+
+.heada{
+    width:7.5rem;
+    height:1.32rem;
+    margin-top: 0.88rem;
+    overflow: hidden;
+}
+.heada .box{
+    width:4.6rem;
+    height:1.32rem;
+    margin:0 auto
+}
+.heada .san{
+    width:1.33rem;
+    height:0.52rem;
+    margin-left: 0.2rem;
+    float: left;
+    border-radius: 0.5rem;
+    margin-top: 0.42rem;
+    background-color: #E7F6FF;
+    line-height: 0.52rem;
+    color:#3BACFE;
+    text-align: center;
+    font-size: 0.19rem;
+}
+.heada .boxx{
+    background-color:#3BACFE;
+    color:white;
+}
+
+/* 分割 */
+
+.headb{
+    width:6.86rem;
+    height:1.83rem;
+    margin:0 auto;
+    overflow: hidden;
+    border-radius: 0.1rem;
+    background: -webkit-linear-gradient(to right,#27d29c,#33e170);
+    background:linear-gradient(to right,#27d29c,#33e170);
+    position:relative;
+    margin-top: 0.05rem;
+    box-shadow:0 0.002rem 0.1rem 0.01rem #27d29c;
+}
+.headb .s{
+    width:6.86rem;
+    height:1.21rem;
+}
+.headb .x{
+    width:6.86rem;
+    height:0.58rem;
+}
+.headb .s .san1{
+    width:1.67rem;
+    height:1.21rem;
+    float: left;
+}
+.headb .s .san1 img{
+    width:1.5rem;
+    height:0.7rem;
+    margin-top: 0.3rem;
+    margin-left: 0.15rem;
+}
+.headb .s .san2{
+    width:2rem;
+    height:1.21rem;
+    float: left;
+}
+.headb .s .san2 span{
+    display: block;
+    margin-top: 0.37rem;
+    font-size: 0.26rem;
+    color:#fbfeff;
+}
+.headb .s .san2 p{
+    font-size: 0.17rem;
+    color:#dddddd;
+}
+.headb .s .san3{
+    width:1.7rem;
+    height:1.21rem;
+    float: right;
+    position:relative;
+}
+.headb .s .san3 strong{
+    font-size: 0.65rem;
+    color:white;
+    margin-top: 0.21rem;
+    margin-left: 0.5rem;
+    display: block;
+}
+.headb .s .san3 p{
+    font-size: 0.21rem;
+    color:white;
+    position:absolute;
+    right:0.24rem;
+    top:0.67rem;
+}
+
+.headb .x span{
+    color:rgb(226, 226, 226);
+    position:absolute;
+    left:0.2rem;
+    top:0.9rem;
+}
+.headb .x .y{
+    width:1.36rem;
+    height:0.38rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    line-height:0.38rem;
+    text-align: center;
+    color:#33E172;
+    position:absolute;
+    top:1.3rem;
+    right:0.24rem;
+    font-size: 0.2rem;
+}
+.headb .x p{
+    color:rgb(226, 226, 226);
+    position:absolute;
+    left:0.2rem;
+    top:1.45rem;
+    font-size: 0.19rem;
+}
+
+/* 分割 */
+
+.headbl{
+    width:6.86rem;
+    height:1.83rem;
+    margin:0 auto;
+    overflow: hidden;
+    border-radius: 0.1rem;
+    background: -webkit-linear-gradient(to right,#ffb637,#ffde47);
+    background:linear-gradient(to right,#ffb637,#ffde47);
+    position:relative;
+    margin-top: 0.18rem;
+    box-shadow:0 0.002rem 0.1rem 0.01rem #ffb637;
+}
+.headbl .s{
+    width:6.86rem;
+    height:1.21rem;
+}
+.headbl .x{
+    width:6.86rem;
+    height:0.58rem;
+}
+.headbl .s .san1{
+    width:1.67rem;
+    height:1.21rem;
+    float: left;
+}
+.headbl .s .san1 img{
+    width:1.5rem;
+    height:0.7rem;
+    margin-top: 0.3rem;
+    margin-left: 0.15rem;
+}
+.headbl .s .san2{
+    width:2rem;
+    height:1.21rem;
+    float: left;
+}
+.headbl .s .san2 span{
+    display: block;
+    margin-top: 0.37rem;
+    font-size: 0.26rem;
+    color:#fbfeff;
+}
+.headbl .s .san2 p{
+    font-size: 0.17rem;
+    color:#dddddd;
+}
+.headbl .s .san3{
+    width:1.7rem;
+    height:1.21rem;
+    float: right;
+    position:relative;
+}
+.headbl .s .san3 strong{
+    font-size: 0.65rem;
+    color:white;
+    margin-top: 0.21rem;
+    margin-left: 0.5rem;
+    display: block;
+}
+.headbl .s .san3 p{
+    font-size: 0.21rem;
+    color:white;
+    position:absolute;
+    right:0.24rem;
+    top:0.67rem;
+}
+
+.headbl .x span{
+    color:rgb(226, 226, 226);
+    position:absolute;
+    left:0.2rem;
+    top:0.9rem;
+}
+.headbl .x .y{
+    width:1.36rem;
+    height:0.38rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    line-height:0.38rem;
+    text-align: center;
+    color:#33E172;
+    position:absolute;
+    top:1.3rem;
+    right:0.24rem;
+    font-size: 0.2rem;
+}
+.headbl .x p{
+    color:rgb(226, 226, 226);
+    position:absolute;
+    left:0.2rem;
+    top:1.45rem;
+    font-size: 0.19rem;
+}
+
+/* 分割 */
+
+.headbs{
+    width:6.86rem;
+    height:1.83rem;
+    margin:0 auto;
+    overflow: hidden;
+    border-radius: 0.1rem;
+    background: -webkit-linear-gradient(to right,#33a2f8,#3fdef1);
+    background:linear-gradient(to right,#33a2f8,#3fdef1);
+    position:relative;
+    margin-top: 0.18rem;
+    box-shadow:0 0.002rem 0.1rem 0.01rem #33a2f8;
+}
+.headbs .s{
+    width:6.86rem;
+    height:1.21rem;
+}
+.headbs .x{
+    width:6.86rem;
+    height:0.58rem;
+}
+.headbs .s .san1{
+    width:1.67rem;
+    height:1.21rem;
+    float: left;
+}
+.headbs .s .san1 img{
+    width:1.5rem;
+    height:0.7rem;
+    margin-top: 0.3rem;
+    margin-left: 0.15rem;
+}
+.headbs .s .san2{
+    width:2rem;
+    height:1.21rem;
+    float: left;
+}
+.headbs .s .san2 span{
+    display: block;
+    margin-top: 0.37rem;
+    font-size: 0.26rem;
+    color:#fbfeff;
+}
+.headbs .s .san2 p{
+    font-size: 0.17rem;
+    color:#dddddd;
+}
+.headbs .s .san3{
+    width:1.7rem;
+    height:1.21rem;
+    float: right;
+    position:relative;
+}
+.headbs .s .san3 strong{
+    font-size: 0.65rem;
+    color:white;
+    margin-top: 0.21rem;
+    margin-left: 0.5rem;
+    display: block;
+}
+.headbs .s .san3 p{
+    font-size: 0.21rem;
+    color:white;
+    position:absolute;
+    right:0.24rem;
+    top:0.67rem;
+}
+
+.headbs .x span{
+    color:rgb(226, 226, 226);
+    position:absolute;
+    left:0.2rem;
+    top:0.9rem;
+}
+.headbs .x .y{
+    width:1.36rem;
+    height:0.38rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    line-height:0.38rem;
+    text-align: center;
+    color:#33E172;
+    position:absolute;
+    top:1.3rem;
+    right:0.24rem;
+    font-size: 0.2rem;
+}
+.headbs .x p{
+    color:rgb(226, 226, 226);
+    position:absolute;
+    left:0.2rem;
+    top:1.45rem;
+    font-size: 0.19rem;
+}
+
+/* 分割 */
+
+
+
+/* 分割 */
+

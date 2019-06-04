@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.topbar{
+    width: 7.5rem;
+    height: 1rem;
+    position: fixed;
+    box-shadow: 0 0 0.2rem 0 
+        rgba(103, 172, 228, 0.767);
+    background-color: white;
+    line-height: 1rem;
+}
+.topbox{
+    width: 7rem;
+    height: 0.4rem;
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
+    text-align: center;
+    line-height: 0.4rem;
+    position: relative;
+    
+}
+.topbar i{
+    color: #54bcfb;
+    position: absolute;
+    left: 0.2rem;
+}
+.topbar span{
+    top: 0.2rem;
+    color: #54bcfb;
+}
+.talk{
+    width: 7.5rem;
+    height: 5.1rem;
+    padding-top: 1rem;
+}
+.talk1{
+    width: 5.9rem;
+    height: 1.2rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.head{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 100%;
+    background-color: purple;
+    overflow: hidden;
+    margin-left: 0.2rem;
+}
+.sp1{
+    width: 4.8rem;
+    height: 0.7rem;
+    border-radius: 0 0.35rem 0.35rem 0.35rem;
+    background: linear-gradient(to right, #42aefb, #c5e6fe);
+    text-align: center;
+    line-height: 0.7rem;
+    margin-left: 0.2rem; 
+    box-shadow: 0 0.1rem 0.2rem 0 
+        rgba(103, 172, 228, 0.767);
+}
+.sp1 span{
+    color: white;
+    font-size: 0.24rem;
+}
+.name{
+    position: absolute;
+    left: 0.28rem;
+    top: 1rem;
+    font-size: 0.2rem;
+    color: #919191;
+}
+.talk2{
+    width: 4rem;
+    height: 1.2rem;
+    float: right;
+    margin-top: 0.4rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.sp2{
+    width: 2.9rem;
+    height: 0.7rem;
+    border-radius: 0.35rem 0 0.35rem 0.35rem;
+    background: linear-gradient(to bottom, #3bd3b9, #3adc60);
+    margin-left: 0.2rem;
+    text-align: center;
+    line-height: 0.7rem;
+    box-shadow: 0 0.1rem 0.2rem 0
+        rgba(#b9edca, 0.767);
+}
+.sp2 span{
+    color: white;
+    font-size: 0.24rem;
+}
+.talk2 .head{
+    float: right;
+    margin-left: 0.2rem;
+}
+.name2{
+    position: absolute;
+    top: 1rem;
+    left:3.3rem;
+    font-size: 0.2rem;
+    color: #919191;
+}
+.talk3{
+    width: 5.6rem;
+    height: 1.2rem;
+    float: left;
+}
+.sp1 i{
+    font-size: 0.34rem;
+    margin-left: -3.2rem;
+}
+.talk3 .sp1{
+    width: 3.7rem;
+}
+.talk3 p{
+    position: absolute;
+    left: 5rem;
+    top: 0.3rem;
+    color: #71d3fc;
+    font-size:0.16rem;
+
+}
+
+
+
+
+
+
+.shuru{
+    width: 7.5rem;
+    height: 1rem;
+    margin-top: 6.3rem;
+    background-color: #3eaafb;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.shuru i{
+    font-size: 0.5rem;
+    background-color:#2578b8;
+    color: white;
+}
+.info{
+    width: 5.2rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background-color:white;
+    border: 0.02rem solid #3195e0;
+}
+.circle{
+    width: 0.5rem;
+    height: 0.5rem;
+    overflow: hidden;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 0.5rem;
+    border: 0.02rem solid #2578b8;
+}
+.circle i{
+    font-size: 0.5rem;
+}
+.info input{
+    margin-left: 0.3rem;
+    line-height: 0.4rem;
+    margin-top: 0.05rem;
+}

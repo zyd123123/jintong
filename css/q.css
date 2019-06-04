@@ -1,0 +1,106 @@
+.top{
+    width:7.5rem;
+    height:0.88rem;
+    text-align:center;
+    line-height:0.88rem; 
+    box-shadow:0 0 0.1rem 0.1rem #eff9ff;
+    font-size:0.36rem;
+    color:#41b2fc;   
+    position:relative;
+    font-weight:bold;
+}
+.top a{
+    display:block;  
+    float:left;
+    height:100%;
+    padding-left:0.24rem;
+}
+.top .iconfanhui{
+    color:#41b2fc;
+    font-weight:bold;
+}
+.q{
+    width:7.02rem;
+    height:0.6rem;
+    border:0.03rem solid #e8f6ff;
+    background-color: #f2faff;
+    border-radius:0.6rem;
+    margin:0 auto;
+}
+.q input{
+    height:0.6rem;
+    width:5.7rem;
+    border:0;
+    background-color: #f2faff;
+    margin-left: 0.3rem;
+    outline:none;
+}
+.q a{
+    display:block; 
+    float:right;
+    height:0.45rem;
+    width:0.8rem;
+    border-radius:0.45rem;
+    background-color: #a4e0bd;
+    margin-top:0.05rem;
+    margin-right: 0.1rem;
+    text-align:center;
+    line-height:0.45rem; 
+    color:#e5f6ec;
+    font-size:0.24rem;
+}
+.w{
+    width:7.02rem;
+    height:4rem;
+    margin:0 auto;
+    margin-top:0.2rem;
+    margin-bottom:0.2rem;
+}
+.w img{
+    width:100%;
+    height:100%;
+}
+.e{
+    height:auto;
+    width:7.02rem;
+    margin:0 auto;
+}
+.e .e1{
+    font-size:0.3rem;
+    color:#41b2fc;
+    font-weight:bold;
+
+}
+.e .e1 span{
+    font-weight:bold;
+    font-size:0.3rem;
+    color:#4f5b64;
+}
+.e .e2{
+    width:100%;
+    font-size:0.3ren;
+    color:#4f5b64;
+    border-bottom:0.01rem solid #EEF1F2;
+}
+.e .e3{
+    border-bottom:0;
+}
+.e .e2 .e21{
+    font-size:0.3ren;
+    color:#4f5b64;
+    font-weight:bold;
+    margin-bottom:0;
+}
+.e .e2 .iconshouhuodizhi{
+    color:#5ECC44;
+}
+.e .e3 .e21 .iconquan{
+    color:#37CE9A;
+    font-size:0.3ren;
+}
+.e .e2 .e22{
+    font-size:0.26rem;
+    color:#AFB1B2;
+    margin-top:0.05rem;
+    margin-left:0.4rem;
+}

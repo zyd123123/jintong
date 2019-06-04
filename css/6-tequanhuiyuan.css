@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.topbar{
+    width: 7.5rem;
+    height: 1rem;
+    position: fixed;
+    box-shadow: 0 0 0.2rem 0 
+        rgba(103, 172, 228, 0.767);
+    background-color: white;
+    line-height: 1rem;
+}
+.topbox{
+    width: 7rem;
+    height: 0.4rem;
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
+    text-align: center;
+    line-height: 0.4rem;
+    position: relative;
+    
+}
+.topbar i{
+    color: #54bcfb;
+    position: absolute;
+    left: 0.2rem;
+}
+.topbar span{
+    top: 0.2rem;
+    color: #54bcfb;
+}
+.first{
+    width: 7.5rem;
+    height: 2.8rem;
+    padding-top: 1rem;
+}
+.student{
+    width: 6.4rem;
+    height: 1.88rem;
+    border-radius: 0.1rem;
+    float:left;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+    box-shadow: 0 0 0.2rem 0 
+        rgba(118, 118, 118, 0.17); 
+}
+.head{
+    width: 0.96rem;
+    height: 0.96rem;
+    border-radius: 100%;
+    float:left;
+    margin-left: 0.2rem;
+    margin-top:0.2rem;
+    overflow: hidden;
+}
+.name{
+    width: 2.5rem;
+    height: 0.8rem;
+    float:left;
+    margin-left: 0.2rem;
+    margin-top:0.35rem;
+}
+.num{
+    width: 2.5rem;
+    height: 0.28rem;
+    display: flex;
+    font-size: 0.22rem;
+    align-items: center;
+}
+.num span{
+    color: #2ead86;
+}
+.num p{
+    margin-left:0.1rem;
+}
+.num pre{
+    color: #b2b2b2;
+}
+.num p{
+    color: #54bcfb;
+}
+.num :last-child{
+    color: #e2e2e2;
+}
+
+.name span{
+    font-size: 0.34rem;
+    color: #7f7f7f;
+}
+
+.upgrade{
+    width: 1.4rem;
+    height: 0.4rem;
+    float:left;
+    margin-left: 1.1rem;
+    margin-top:0.38rem;
+    display: flex;
+}
+.upgrade p{
+    font-size: 0.2rem;
+    color: #42aefb;
+}
+.upgrade span{
+    background: linear-gradient(to right, #42aefb, #c5e6fe);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.member{
+    width: 6rem;
+    height: 0.4rem;
+    float:left;
+    margin-left: 0.2rem;
+    margin-top:0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar{
+    width: 2.27rem;
+    height: 0.06rem;
+    background: linear-gradient(to right, #42aefb, #34e0c5);   
+}
+.bar1{
+    width: 0.74rem;
+    height: 0.06rem;
+    background-color: #def3fd;
+    margin-left:-0.1rem;
+}
+.member span{
+    font-size: 0.2rem;
+    color: #7f7f7f;
+}
+.memeber :first-child{
+    color: #fbd246;
+}
+.member :last-child{
+    color:#7f7f7f;
+}
+.memeber :nth-last-child(2){
+    color: #e8e8e8;
+}
+
+
+
+
+.middle{
+    width: 7.5rem;
+    height: 3.6rem;
+}
+.myright{
+    width: 1.6rem;
+    height: 0.42rem;
+    display: flex;
+}
+.myright span{
+    color: #42aefb;
+}
+.myright p{
+    color: #4f5b64;
+}
+.mod{
+    width: 1.5rem;
+    height: 1.7rem;
+    margin-top: 0.5rem;
+    margin-left: 0.65rem;
+    float:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 1.17rem;
+    height: 1.17rem;
+    background: linear-gradient(to bottom, #42aefb, #c5e6fe);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa;
+}
+.circle i{
+    font-size: 0.64rem;
+}
+.mod span{
+    margin-top: 0.1rem;
+    font-size: 0.25rem;
+    color: #7f7f7f;
+}
+.v1 .circle{
+    background: linear-gradient(to bottom, #3bd3b9, #3adc60);
+}
+.bottom{
+    width: 7.5rem;
+    height: 2.6rem;
+}
+.nex{
+    width: 7.2rem;
+}
+.full{
+    width: 1.8rem;
+    height: 0.4rem;
+    float: left;
+    margin-left: 3.5rem;
+    display: flex;
+}
+.full span{
+    background: linear-gradient(to right, #646666, #c9cbcc);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.v2 .circle{
+    background: linear-gradient(to bottom, #fdbb48, #fee148);
+}
+.v2 .circle{
+   margin-left: 0.2rem;
+}

@@ -1,0 +1,306 @@
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    display: flex;
+}
+.header .icon-fanhui1{
+    display: block;
+    font-size:0.42rem;
+    margin-left:0.24rem;
+    color:#36a8fe;
+    line-height: 0.88rem;
+}
+.header .title{
+    margin-left:2.77rem;
+    margin-top:0.17rem;
+    font-size:0.38rem;
+    color:#4ebbfe;
+    font-weight: bold;
+
+}
+.bigbox{
+    width:7.5rem;
+    height:auto;
+    padding:0 0.24rem;
+    overflow: hidden;
+   box-sizing: border-box;
+   margin-bottom: 2rem;
+
+}
+.bigbox .sousuo{
+    width:7.02rem;
+    height:0.6rem;
+    border-radius: 0.3rem;
+    border: solid 0.03rem rgba(55, 169, 254, 0.17);
+    opacity: 0.58;;
+    background-color: #ebf7ff;
+    margin-top:0.24rem;   
+}
+.bigbox .sousuo input{
+    width:5rem;
+    height:0.5rem;
+    margin-left:0.5rem;
+    border:0;
+    outline: none;
+    background-color: #ebf7ff;
+    display: block;
+    float: left;
+    margin-top:0.04rem;
+}
+.bigbox .sousuo button{
+    width:0.79rem;
+    height:0.44rem;
+    background-color: #a4e0bd;
+    border-radius: 0.21rem;
+    border: none;
+    display: block;
+    float: left;
+    margin:0.07rem 0  0  0.7rem;
+    color:#fff;
+    opacity: 0.71;
+}
+.bigbox .box{
+    width:7.02rem;
+    height:0.99rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.bigbox .box .xihu{
+    width: 1.33rem;
+	height: 0.52rem;
+	background-color: #e7f6ff;
+	box-shadow: 0rem 0.05rem 0.12rem 0rem 
+		rgba(59, 172, 254, 0.43);
+	border-radius: 0.26rem;
+    font-size: 0.2rem;
+    line-height: 0.52rem;
+    color:#3bacfe;
+    margin-top:0.22rem;
+    margin-right:0.2rem;
+}
+.bigbox .box .box-3{
+    width: 1.33rem;
+	height: 0.52rem;
+	background-color: #3bacfe;
+	box-shadow: 0rem 0.05rem 0.12rem 0rem 
+		rgba(59, 172, 254, 0.43);
+    border-radius: 0.26rem;
+    color:#fff;
+}
+.bigbox .box .box2{
+    width:7.02rem;
+    height:2.55rem;
+    border-radius: 0.1rem;
+    overflow: hidden;
+}
+.bigbox  .box2 img{
+   width:100%;
+   height:100%;
+}
+.bigbox .box3{
+    width:7.02rem;
+    height:1rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.bigbox .box3 .box3-left{
+    width:1.8rem;
+    height:1rem;
+    display: flex;
+}
+.bigbox .box3 .box3-left .box3-left-1{
+    width: 0.1rem;
+	height: 0.05rem;
+	background-color: #34da87;
+	box-shadow: 0rem 0.02rem 0.05rem 0rem 
+		rgba(52, 218, 135, 0.43);
+    border-radius: 0.03rem;
+    margin-top:0.5rem;
+}
+.bigbox .box3 .box3-left .box3-left-2{
+    font-size:0.32rem;
+    color:#4f5b64;
+    line-height: 1rem;
+}
+.bigbox .box3 .box3-left .box3-left-3{
+    font-size:0.32rem;
+    color:#34da87;
+    line-height: 1rem;
+}
+.bigbox .box3 .box3-right{
+    width:1.8rem;
+    height:1rem;
+}
+.bigbox .box3 .box3-right .text{
+    font-size: 0.22rem;
+    color: #3bacfe;
+    line-height: 1rem;
+    margin-left:0.5rem;
+    display: block;
+    float: left;
+}
+.bigbox .box3 .box3-right .iconfont{
+    font-size: 0.18rem;
+    color: #36a8fe;
+    line-height: 0.93rem;
+    display: block;
+    float: left;
+    margin-left:0.1rem;
+}
+.bigbox .box4{
+    width:7.02rem;
+    height:4.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.bigbox .box4 .box4-1{
+    width:3.25rem;
+    height:4.2rem;
+    position: relative;
+}
+.bigbox .box4 .box4-1 img{
+    display: block;
+    width: 1.53rem;
+    height: 1.61rem;
+    margin:0.15rem 0  0  0.72rem;
+}
+.bigbox .box4 .box4-1 .box4-1-1{
+    width:100%;
+    height:0.42rem;
+    margin-top:0.44rem;
+    display: flex;
+    justify-content: space-between;
+}
+.bigbox .box4 .box4-1 .box4-1-1 .left{
+    font-size: 0.3rem;
+    color:#000;
+}
+.bigbox .box4 .box4-1 .box4-1-1 .right{
+    font-size: 0.3rem;
+    color:#fbb548;
+}
+.bigbox .box4 .box4-1 .min-text{
+    font-size: 0.22rem;
+    color:#000;
+}
+.bigbox .box4 .box4-1 .fenge{
+    width: 3.19rem;
+	height: 0.02rem;
+	border: solid 0.04rem #000000;
+    opacity: 0.04;
+    margin:0.17rem auto 0;
+}
+.bigbox .box4 .box4-1 .box4-1-2 {
+    width:100%;
+    height:0.32rem;
+    display: flex;
+    justify-content: space-between; 
+    margin-top:0.16rem;
+}
+
+.bigbox .box4 .box4-1 .box4-1-2 .left .yuandian{
+    width: 0.05rem;
+	height: 0.05rem;
+	background-color: #44b5ff;
+	box-shadow: 0rem 0.02rem 0.05rem 0rem 
+		rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    float: left;
+    margin-top:0.14rem;
+}
+.bigbox .box4 .box4-1 .box4-1-2 .left .text1{
+    font-size: 0.22rem;
+    color: #000000;
+    float: left;
+    margin-left:0.1rem;
+}
+.bigbox .box4 .box4-1 .box4-1-2 .left .text2{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    float: left;
+    line-height: 0.32rem;
+}
+.bigbox .box4 .box4-1 .box4-1-3{
+    display:flex;
+}
+.bigbox .box4 .box4-1 .box4-1-3 .xihu{
+    width: 1.21rem;
+	height: 0.35rem;
+	background-color: #e7f6ff;
+	box-shadow: 0rem 0.05rem 0.12rem 0rem 
+		rgba(59, 172, 254, 0.43);
+	border-radius: 0.18rem;
+    font-size: 0.2rem;
+    line-height: 0.35rem;
+    color:#3bacfe;
+    margin-top:0.22rem;
+    margin-right:0.2rem;
+    text-align: center;
+}
+.bigbox .box4 .box4-1 .huodong{
+    width: 0.54rem;
+	height: 0.3rem;
+	background-image: linear-gradient(90deg, 
+		#37e06f 0%, 
+		#31d69a 100%), 
+	linear-gradient(
+		#44b5ff, 
+		#44b5ff);
+	box-shadow: 0rem 0.02rem 0.12rem 0rem 
+		rgba(55, 223, 116, 0.75);
+    border-radius: 0.15rem;
+    position: absolute;
+    top:0;
+    right:0;
+    color:#fff;
+    text-align:center;
+    line-height: 0.3rem;
+}
+.bigbox .box5{
+    margin-top:0.72rem;
+}
+.tab{
+    width:7.5rem;
+    border-top:0.01rem solid #b7b7b7;
+    height:0.96rem;
+    position:fixed;
+    bottom:0;
+    display:flex;
+    justify-content:space-around;
+    padding:0 24px;
+    box-sizing: border-box;
+    background:#fefefe;
+}
+.tab .small{
+    width:1rem;
+    height:0.98rem;
+    
+}
+.tab .small a{
+    display: block;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+.tab .small a img{
+    width:0.51rem;
+    height:0.42rem;
+}
+.tab .small a .shouye{
+    font-size:0.18rem;
+    color:#9ddcff;
+}
+
+.tab .small .a2 .shouye{
+    color:#62c6fe;
+}
+.tab .small .a2 img{
+    width:0.4rem;
+}

@@ -1,0 +1,151 @@
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    display: flex;
+}
+.header .icon-fanhui1{
+    display: block;
+    font-size:0.42rem;
+    margin-left:0.24rem;
+    color:#36a8fe;
+    line-height: 0.88rem;
+}
+.header .title{
+    margin-left:2.77rem;
+    margin-top:0.17rem;
+    font-size:0.38rem;
+    color:#4ebbfe;
+    font-weight: bold;
+
+}
+
+ .top{
+    width:7.5rem;
+    height:0.88rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0rem 0.2rem 0.43rem 0rem 
+    rgba(41, 167, 255, 0.13);
+}
+ .top .top-1{
+    display: flex;
+    color: #3bacfe;
+    font-size: 0.26rem;
+}
+ .top  .top-1-1{
+    color: #36d681;
+}
+.bigbox{
+    width:7.5rem;
+    height:auto;
+    padding:0 0.24rem;
+    overflow: hidden;
+    background-color:#fbfeff;
+    box-sizing: border-box;
+}
+.bigbox .box{
+    width:6.83rem;
+    height:1.74rem;
+    margin:0 auto;
+    margin-top:0.24rem;
+}
+.bigbox .box img{
+    width:1.74rem;
+    height:1.74rem;
+    display: block;
+    float: left;
+}
+.bigbox .box .text{
+    float: left;
+    font-size: 0.3rem;
+    color: #000000;
+    margin-top:0.1rem;
+    width:5.05rem;
+}
+.bigbox .box .text span{
+    font-size: 0.28rem;
+    color: #979899;
+}
+.bigbox .box .text2{
+    float: left;
+    width:5.05rem; 
+}
+.bigbox .box .text2 .text2-left{
+    float: left;
+    display: flex;
+}
+.bigbox .box .text2 .text2-left .yangshi{
+    width: 0.05rem;
+	height: 0.05rem;
+	background-color: #44b5ff;
+	box-shadow: 0rem 0.02rem 0.05rem 0rem 
+		rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    margin-top:0.13rem;
+}
+.bigbox .box .text2 .text2-left .TexT{
+	font-size: 0.22rem;
+	color: #afb1b2;
+}
+.bigbox .box .text2 .text2-left .TexT1{
+	font-size: 0.26rem;
+    color: #36a8fe;
+    margin-top:0.03rem;
+}
+.bigbox .box .text2 .text2-left .TexT2{
+	font-size: 0.26rem;
+    color: #b9e1ff;
+    margin-top:0.03rem;
+}
+.bigbox .box .text2 .text2-left .yangshi1{
+	margin-left:0.5rem;
+}
+.bigbox .box .text3{
+    float: left;
+    display: flex;
+    margin-top:0.02rem;
+}
+.bigbox .box .text3 .text3-1{
+    width: 1.21rem;
+	height: 0.35rem;
+	background-color: #e7f6ff;
+	border-radius: 0.18rem;
+    color:#57b7fe;
+    font-size:0.2rem;
+    line-height: 0.35rem;
+    text-align: center;
+}
+.bigbox .box .text3 .text3-1-1{
+    margin-left:0.09rem;
+}
+.bigbox .box .text4 .text3-1-1{
+    margin-left:0.09rem;
+}
+.bigbox .box .text2 .text2-left .yangshi-1{
+	width: 0.05rem;
+	height: 0.05rem;
+	background-color: #36d681;
+	box-shadow: 0rem 0.02rem 0.05rem 0rem 
+		rgba(54, 214, 129, 0.43);
+	border-radius: 0.03rem;
+}
+.bigbox .box .text2 .text2-left .TexT-1{
+	font-size: 0.18rem;
+    color: #afb1b2;
+    margin-top:0.03rem;
+}
+.bigbox .box .text2 .text2-left .TexT1-1{
+	font-size: 0.22rem;
+    color: #c9cbcc;
+    margin-top:0.03rem;
+    margin-top:0.07rem;
+}
+.bigbox .box .text2 .text2-left .many{
+	font-size: 0.26rem;
+    color: #fbb548;
+    margin-left:3.7rem;
+}
+.bigbox .box .text4{
+    margin-top:0.1rem;
+}

@@ -1,0 +1,327 @@
+body{
+    background:#FBFEFF;
+}
+/* 导航栏开始 */
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:#fbfeff;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    position:fixed;
+    top:0;
+    text-align:center;
+    line-height:0.88rem;
+    box-shadow: 0px 3px 43px 0px 
+		rgba(41, 167, 255, 0.13);
+}
+.header b{
+    font-size:0.36rem;
+    color:#4ebbfe;
+    margin-right:0.6rem;
+}
+.header .left p{
+    float:left;
+    font-size:0.22rem;
+    color:#4ebbfe;
+}
+.header .iconzuojiantou{
+    font-size:0.38rem;
+    float:left;
+    color:#36a8fe;
+}
+.search{
+    width:7.5rem;
+    height:0.6rem;
+    margin-top:0.88rem;
+    position:relative;
+}
+.search input{
+    border:0.03rem solid #EBF7FF;
+    background:#F2FAFF;
+    font-size:0.24rem;
+    color:#c8d9e6;
+    padding-left: 0.3rem;
+    box-sizing:border-box;
+    margin:0 0.2rem 0 0.18rem;
+    width:7.12rem;
+    height:0.6rem;
+    border-radius:0.3rem;
+    outline:none;
+}
+.search .right{
+    width:0.79rem;
+    height:0.44rem;
+    background:#a4e0bd;
+    border-radius: 0.2rem;
+    position: absolute;
+    right:0.29rem;
+    bottom:0.08rem;
+    text-align: center;
+    line-height:0.44rem;
+}
+.search .right .iconsousuo1{
+    font-size:0.42rem;
+    color:#E5F6EC;
+}
+/* 导航栏结束 */
+/* 咨询开始 */
+.consult{
+    width:7.5rem;
+    height:2.71rem;
+    padding:0 0.24rem;
+    background:#FBFEFF;
+    box-sizing:border-box;
+    box-shadow: 0 0.03rem 0.43rem 0px 
+		rgba(41, 167, 255, 0.13);
+}
+.consult .left{
+    float:left;
+    width:1.74rem;
+    height:1.74rem;
+    margin-top:0.51rem;
+}
+.consult .left img{
+    width:100%;
+    height:100%;
+}
+.consult .right{
+    width:4.81rem;
+    height:1.66rem;
+    margin:0.59rem 0.15rem 0 0;
+    float:right;
+}
+.consult .right b{
+    font-size:0.3rem;
+    color:#646666;
+}
+.consult .right .big{
+    line-height:0.22rem;
+    height:0.22rem;
+    margin:0.1rem 0;
+}
+.consult .right .big .round{
+    display: inline-block;
+    width:0.05rem;
+    height:0.05rem;
+    border-radius:50%;
+    background:#44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0px 
+        rgba(68, 181, 255, 0.43);
+    margin-bottom:0.06rem;
+}
+.consult .right .big .font{
+    font-size:0.12rem;
+    color:#AFB1B2;
+}
+.consult .right .big .font1{
+    font-size:0.14rem;
+    color:#36a8fe;
+}
+.consult .right .big .round2{
+    margin-left:0.31rem;  
+}
+.consult .right .big .font2{
+    font-size:0.14rem;
+    color:#b9e1ff;
+}
+.consult .right p i{
+    font-size:0.21rem;
+    color:#a4e0bd;
+}
+.consult .right p .font3{
+    font-size:0.2rem;
+    color:#a4e0bd;
+}
+.consult .right p .font4{
+    font-size:0.26rem;
+    color:#a4e0bd;
+}
+.consult .right .time{
+    margin-top:0.18rem;
+    width:2.24rem;
+    height:0.35rem;
+    float:left;
+    border-radius:0.17rem;
+    background:#E7F6FF;
+    line-height:0.35rem;
+    text-align:center;
+    font-size:0.24rem;
+    color:#3bacfe;
+}
+.consult .right .time2{
+    width:1.24rem;
+    height:0.45rem;
+    float:right;
+    box-shadow: 0 0.05rem 0.12rem 0px 
+		rgba(59, 172, 254, 0.43);
+    border-radius: 0.22rem;
+    background:#3bacfe;
+    font-size:0.2rem;
+    line-height:0.45rem;
+    text-align:center;
+    margin-top:0.1rem;
+}
+/* 咨询结束 */
+/* 分类开始 */
+.sort{
+    width:7.5rem;
+    height:1.39rem;
+    padding:0.44rem 1.14rem;
+    box-sizing:border-box;
+}
+.sort .one{
+    width:1.5rem;
+    height:0.52rem;
+    background:#3bacfe;
+    box-shadow: 0px 0.05rem 0.12rem 0px 
+        rgba(59, 172, 254, 0.43);
+    border-radius: 0.26rem;
+    text-align: center;
+    line-height:0.52rem;
+    float:left;
+    color:#fff;
+    font-size:0.2rem;
+}
+.sort .one2{
+    background:#E7F6FF;
+    color:#3bacfe;
+    margin-left:0.35rem;
+}
+/* 类别结束 */
+/* 全部开始 */
+/* .quanbu{
+    width:7.5rem;
+    height:7.65rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+} */
+ .Bigtop{
+    width:7.5rem;
+    height:0.68rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    background:#3BACFE;
+}
+.top{
+    width:100%;
+    height:0.68rem;
+    line-height:0.68rem;
+    position: relative;
+    line-height:0.68rem;
+}
+ .top .bot{
+    width:1.39rem;
+    height:0.05rem;
+    position: absolute;
+    bottom:0;
+    left:0.11rem;
+    background:#fff;
+}
+ .top .p1{
+    font-size:0.2rem;
+    color:#fff;
+    margin-left:0.5rem;
+}
+ .top .p2{
+    margin-left:1.2rem;
+    color:#B1DEFF;
+}
+.quanbu .top .p3{
+    margin-right:0.5rem;
+}
+ .bottom{
+    width:7.5rem;
+    padding: 0 0.24rem;
+    box-sizing:border-box;
+    height:6.5rem;
+    margin-top:0.12rem;
+    overflow: hidden;
+}
+ .bottom .goods{
+    width:100%;
+    height:1.97rem;
+    margin-top:0.32rem;
+}
+ .bottom .goods .left{
+    width:1.97rem;
+    height:1.97rem;
+    float:left;
+    box-shadow: 0px 0.01rem 0.21rem 0px 
+		rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    overflow: hidden;
+}
+ .bottom .goods .left img{
+    width:100%;
+    height:100%;
+}
+ .bottom .goods .right{
+    height:100%;
+    width:4.8rem;
+    float:left;
+    margin-left:0.24rem;
+    position: relative;
+}
+ .bottom .goods .right .bottom{
+    width:100%;
+    height:0.01rem;
+    position:absolute;
+    top:0.88rem;
+    background:#F0F5F7;
+}
+.bottom .goods .right .font7{
+    font-size:0.3rem;
+    color:#646666;
+    margin-top:0.1rem;
+}
+ .bottom .goods .right span{
+    font-size:0.12rem;
+    color:#AFB1B2;
+}
+ .bottom .goods .right .money{
+    width:100%;
+    height:0.25rem;
+    margin-top:0.3rem;
+    overflow: hidden;
+    line-height:0.25rem;
+}
+.bottom .goods .right .money .round{
+    display: inline-block;
+    width:0.05rem;
+    height:0.05rem;
+    border-radius:50%;
+    background:#44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0px 
+        rgba(68, 181, 255, 0.43);
+    margin-bottom:0.06rem;
+}
+.bottom .goods .right .money .font{
+    font-size:0.2rem;
+    color:#AFB1B2;
+}
+.bottom .goods .right .money .font2{
+    font-size:0.24rem;
+    color:#36a8fe;
+}
+.bottom .goods .right .money .font3{
+    font-size:0.24rem;
+    color:#b9e1ff;
+}
+.bottom .goods .right .money .round2{
+    background:#36d681;
+    box-shadow: 0 0.02rem 0.05rem 0 
+        rgba(54, 214, 129, 0.43);
+    margin-left:0.4rem;
+}
+.bottom .goods .right .money .font5{
+    font-size:0.26rem;
+    color:#fbb548;
+    margin-left:0.9rem;
+}
+.bottom .goods .right .font6{
+    font-size:0.2rem;
+    color:#cfcfcf;
+    margin-top:0.16rem;
+}
+/* 全部结束 */

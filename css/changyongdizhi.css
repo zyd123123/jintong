@@ -1,0 +1,55 @@
+.top{
+    width:7.5rem;
+    height:0.88rem;
+    text-align:center;
+    line-height:0.88rem; 
+    box-shadow:0 0 0.1rem 0.1rem #eff9ff;
+    font-size:0.36rem;
+    color:#41b2fc;   
+    position:relative;
+    font-weight:bold;
+}
+.top a{
+    display:block;  
+    position:absolute;
+    top:0;
+    left:0.24rem;
+    height:100%;
+}
+.top .iconfanhui{
+    color:#41b2fc;
+    font-weight:bold;
+}
+a{
+    display:block;
+}
+.q{
+    width:4.5rem;
+    height: 5.2rem;
+    margin:0 auto;
+    margin-top: 0.8rem;
+}
+.q img{
+    width:4.5rem;
+    height: 5.2rem;
+}
+.w{
+    width: 7.02rem;
+    font-size: 0.26rem;
+    color:#9D9E9F;
+    text-align:center;
+    margin: 0 auto;
+}
+.e{
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius:0.6rem;
+    font-size: 0.2rem;
+    color:white;
+    text-align:center;
+    line-height:0.6rem;
+    background:linear-gradient(to right,#37e06f,#32d699);
+    background:-webkit-linear-gradient(to right,#37e06f,#32d699);   
+    margin: 0 auto;
+    margin-top:0.2rem;
+}

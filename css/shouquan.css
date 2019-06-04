@@ -1,0 +1,140 @@
+.top-box{
+    width: 100%;
+    height: 0.88rem;
+    /* background: #000000; */
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 0.05rem 1rem 0.1rem #ECF8FF;
+}
+a{
+    color: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.top{
+    width: 7.02rem;
+    height: 0.88rem;
+    background:#fff;
+    text-align: center;
+    line-height: 0.88rem;
+    margin: 0 auto;
+    color: #4EBBFE;
+}
+.top>a{
+    float: left;
+    color: #4EBBFE;
+    font-weight: bolder;
+}
+.dengLu-box{
+    width: 100%;
+    height: 2.92rem;
+    background: #4EBBFE;
+    margin-top: 0.88rem;
+}
+.dengLu{
+    width: 7.5rem;
+    height: 2.92rem;
+    background: #fff;
+    position: relative;
+}
+.dengLu-item{
+    width: 5.31rem;
+    height: 0.87rem;
+    /* background: #4EBBFE; */
+    border-bottom: 0.01rem solid #ECF8FF;
+    position: absolute;
+    bottom: 0;
+    left: 1.1rem;
+    font-size: 0.24rem;
+    line-height: 0.87rem;
+    text-align: center;
+    color: #000;
+    opacity: 0.9;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.tuBiao-box{
+    width: 100%;
+    height: 2.08rem;
+    /* background: #4EBBFE; */
+}
+.tuBiao{
+    width: 5.31rem;
+    height: 2.08rem;
+    /* background: #4EBBFE; */
+    border-bottom: 0.01rem solid #ECF8FF;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.tuBiao>img{
+    width: 0.94rem;
+    height: 0.94rem;
+    margin: 0 auto;
+    display: block;
+    margin-top: 0.3rem;
+}
+.tuBiao>p{
+    height: 0.75rem;
+    color: #666;
+    text-align: center;
+    line-height: 0.75rem;
+    margin-top: 0.2rem;
+    font-size: 0.26rem;
+}
+.zhuYi-box{
+    width: 100%;
+    height: 0.7rem;
+}
+.zhuYi{
+    width: 5.31rem;
+    height: 0.7rem;
+    border-bottom: 0.01rem solid #ECF8FF;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: 0.26rem;
+    line-height: 0.7rem;
+    text-align: center;
+    color: #666;
+}
+.zhuYi span{
+    display: inline-block;
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #36D681;
+    margin-right: 0.1rem;
+    margin-bottom: 0.05rem;
+    border-radius: 50%;
+}
+.btn-box{
+    width: 100%;
+    height: 1rem;
+}
+.btn{
+    width: 5.31rem;
+    height: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.btn div{
+    width: 1.35rem;
+    height: 0.52rem;
+    border-radius: 0.5rem;
+    /* background: #000; */
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.52rem;
+    margin-top: 0.3rem;
+}
+.btn .btn1{
+    background: #E7F6FF;
+    color:#6BC1FE;
+}
+.btn .btn2{
+    background: #3BACFE;
+    color:#fff;
+}
