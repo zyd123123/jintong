@@ -40,12 +40,15 @@ a{
 .middle{
     width: 7.5rem;
     height: 3.6rem;
+}
+.alpha {
     padding-top: 1.5rem;
 }
 .myright{
     width: 1.6rem;
     height: 0.42rem;
     display: flex;
+    border-bottom: 0.02rem soilid darkgray;
 }
 .myright span{
     color: #42aefb;
@@ -84,4 +87,10 @@ a{
 }
 .v1 .circle{
     background: linear-gradient(to bottom, #3bd3b9, #3adc60);
+}
+.v2 .circle{
+    background: linear-gradient(to bottom, #fdbb48, #fee148);
+}
+.v2 .circle{
+   margin-left: 0.2rem;
 }
