@@ -178,12 +178,15 @@
     height: 1.27rem;
     margin: 0 auto;
     margin-top: 0.53rem;
+    border: 0.01rem solid #8a8c8d;
 }
-.input input{
+.input textarea{
     width: 7.02rem;
     height: 1.27rem;
     padding-left: 0.32rem;
     box-sizing: border-box;
+    outline: none;
+    border: none;
 }
 .youhui{
     width: 7.02rem;

@@ -16,6 +16,14 @@
     margin-left: 0.24rem;
     float: left; 
 }
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 .top span{
     width: 7.5rem;
     margin-left: -0.3rem;
@@ -200,6 +208,7 @@
     padding:0 24px;
     box-sizing: border-box;
     background:#fefefe;
+    font-size: 0.18rem;
 }
 .tab .small{
     width:1rem;

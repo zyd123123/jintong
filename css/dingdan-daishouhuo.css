@@ -16,6 +16,11 @@
     margin-left: 0.24rem;
     float: left; 
 }
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 .top span{
     width: 7.5rem;
     margin-left: -0.3rem;
