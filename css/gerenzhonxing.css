@@ -106,12 +106,14 @@ a{
     display: block;
     float: left;
     margin-left: 0.85rem;
+    color:black;
 }
 .headb .x .l{
     font-size:0.24rem;
     position:absolute;
     left:2.8rem;
-    top:0.48rem;
+    top:0.42rem;
+    color:black;
 }
 .headb .s .ll{
     color:#2dde59;
